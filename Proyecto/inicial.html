@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head><title>Inicial</title>
+<link rel="StyleSheet" href="home.css" type="text/css">
+<script type="text/javascript" language="JavaScript" src="script.js"></script>
+</head>
+<body onload="iniciar()">
+<div id="contenedor">
+      <div id="cabecera">
+            <img src="cabecera.jpg"  height="170px" width="1340px"> 
+      </div>
+      <div id="columna4">
+            <h3>Menu</h3>
+            <br>
+            <div id="menu">
+            <p > <a href="http://localhost/Proyecto/home.html">Inicio</a></p>
+                  <br> 
+                  <p > <a href="http://localhost/Proyecto/resena.html">Rese&ntilde;a</a></p>
+                  <br>
+                  <p> <a href="http://localhost/Proyecto/mision.html">Misi&oacute;n y Visi&oacute;n</a></p>
+                  <br>
+                  <p> <a href="http://localhost/Proyecto/sistema_matricula.html">Matriculas</a></p>
+                  <br>
+                  <p> <a href="http://localhost/Proyecto/objetivos.html">Objetivos</a></p>
+                  <br>
+                  <p> <a href="http://localhost/Proyecto/ubicacion.html">Ubicaci&oacute;n</a></p>
+            </div> 
+      </div>
+      <div id="columna2">
+            <div align="center">
+            	<form method="post" action="horario_inicial.php">
+                  <br>
+                  <h2><font color="blue" id="ola">Nivel Inicial</font><h2>
+                  <br>
+            	<h3>Ingrese Datos del Alumno:</h3>
+            	<table width: "100%" border="1" bordercolor="#0099FF">
+            		<tbody>
+            			<tr>
+            				<td>Apellidos y Nombres:</td>
+            				<td><input type="text" name="nombre" size="50"></td> 
+                                    <td><img src="informacion.png" alt="" height="15" onmouseover="mostrar(this)"onmouseout="ocultar(this)" /><span class="tooltip">Apellidos y Nombres de alumno</span> </td></tr>
+            			<tr>
+            				<td>DNI:</td>
+            				<td><input type="text" name="DNI" size="8"></td> 
+                                    <td><img src="informacion.png" alt="" height="15" onmouseover="mostrar(this)"    onmouseout="ocultar(this)" /><span class="tooltip">DNI del alumno</span>
+                                    </td></tr>
+            			<tr>
+            				<td>Fecha de Nacimiento:</td>
+                            <td><select name="mes" id="mes">
+                              <option selected value="1"> Enero</option>
+                              <option value="2">Febrero</option>
+                              <option value="3">Marzo</option>
+                              <option value="4">Abril</option>
+                              <option value="5">Mayo</option>
+                              <option value="6">Junio</option>
+                              <option value="7">Julio</option>
+                              <option value="8">Agosto</option>
+                              <option value="9">Septiembre</option>
+                              <option value="10">Octubre</option>
+                              <option value="11">Noviembre</option>
+                              <option value="12">Diciembre</option>
+                           </select>
+                           <select name="dia" id="dia">
+                              <option select value="1">1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                              <option>7</option>
+                              <option>8</option>
+                              <option>9</option>
+                              <option>10</option>
+                              <option>11</option>
+                              <option>12</option>
+                              <option>13</option>
+                              <option>14</option>
+                              <option>15</option>
+                              <option>16</option>
+                              <option>17</option>
+                              <option>18</option>
+                              <option>19</option>
+                              <option>20</option>
+                              <option>21</option>
+                              <option>22</option>
+                              <option>23</option>
+                              <option>24</option>
+                              <option>25</option>
+                              <option>26</option>
+                              <option>27</option>
+                              <option>28</option>
+                              <option>29</option>
+                              <option>30</option>
+                              <option>31</option>
+                           </select>
+                           <input type="text" name="año" size="4"> (yyyy) </td> </tr>
+                        <tr>
+                        	<td>Genero:</td>
+                        	<td><input type="radio" value="Masculino" checked name="sexo"> Masculino
+                        	    <input type="radio" value="Femenino" name="sexo"> Femenino</td> </tr>
+                        <tr>
+                        	<td>Nivel:</td>
+                        	<td><select name="nivel" id="nivel">
+                        		<option selected value="3 A&ntilde;os"> 3 A&ntilde;os</option>
+                        		<option value="4 A&ntilde;os"> 4 A&ntilde;os</option>
+                        		<option value="5 A&ntilde;os"> 5 A&ntilde;os</option>
+                        	</select>
+                        	</td> </tr>
+                        <tr>
+                        	<td>Region:</td>
+                        	<td><select name="region" id="region">
+                        		<option selected value="Arequipa">Arequipa</option>
+                        		<option>Camana</option>
+                        		<option>Caraveli</option>
+                        		<option>Castilla</option>
+                        		<option>Caylloma</option>
+                        		<option>Condesuyos</option>
+                        		<option>Islay</option>
+                        		<option>La Union</option>
+                        	</select>
+                        	</td> </tr>
+                        <tr>
+                        	<td>Distrito:</td>
+                        	<td><input type="text" name="distrito" size="50"> </td> </tr>
+                        <tr>
+                              <td>Direccion:</td>
+                              <td><textarea cols="50" rows="5" name="direccion"></textarea></td>
+                              <td><img src="informacion.png" alt="" height="15" onmouseover="mostrar(this)"  onmouseout="ocultar(this)" /><span class="tooltip">Direccion Actual del alumno</span>
+                              </td> </tr>
+                        <tr>
+                              <td>Telefono:</td>
+                              <td><input type="text" name="telefono" size="6"></td> </tr>
+                        <tr>
+                              <td>Celular:</td>
+                              <td><input type="text" name="celular" size="9"></td> </tr>
+                        <tr>
+                              <td>Correo Electronico:</td>
+                              <td><input type="text" name="email" size="20"></td> 
+                              <td><img src="informacion.png" alt="" height="15" onmouseover="mostrar(this)"  onmouseout="ocultar(this)" /><span class="tooltip">Correo del Apoderado o Tutor</span>
+                              </td></tr>
+            		</tbody>
+            	</table>
+                  <br>
+                  <input type="submit" value="Matricularse" name="Guardar">
+                  <input type="reset" value="Limpiar" name="limpiar">
+                  </form>
+            </div>
+      </div>
+      <div id="pie">
+            <img src="pie.jpg"  height="170px" width="1338px"> 
+      </div>
+</div>
+</body>
+</html>

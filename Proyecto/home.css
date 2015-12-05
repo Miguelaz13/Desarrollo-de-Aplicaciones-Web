@@ -1,0 +1,155 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#contenedor
+{
+	width: 100%;
+	border: 1px solid #000;
+	line-height: 130%;
+	background-color: #f2f2f2;
+}
+#cabecera
+{
+	padding: 10px;
+	color: #fff;
+	background-color: #becdfe;
+	clear: left;
+}
+#columna1
+{
+	float: left;
+	width: 200px;
+	margin: 7px;
+	padding: 1em;
+	background-color: #becdfe;
+	border-radius: 25px;
+	border: 1px solid #000000;
+	height: 400px;
+}
+#columna4
+{
+	float: left;
+	width: 200px;
+	margin: 7px;
+	padding: 1em;
+	background-color: #becdfe;
+	border-radius: 25px;
+	border: 1px solid #000000;
+	height: 460px;
+}
+#columna2
+{
+	margin-left: 250px;
+	margin-right: 0px;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	padding: 1em;
+}
+#pie 
+{
+	padding: 10px;
+	color: #fff;
+	background-color: #becdfe;
+	clear: left;
+}
+#menu a{
+	display: block;
+	padding: 3px;
+	width: 160px;
+	background-color: #000000;
+	border-bottom: 1px solid #eeeeee;
+	text-align: center;
+	border-radius: 25px;
+}
+#menu a:link, #menu a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#menu a:hover
+{
+	background-color: #9400D3;
+	color: #ffffff;
+}
+#menu
+{
+	font-family:Arial;
+}
+#menu p 
+{
+	margin: 0px;
+	padding: 0px;
+}
+.tooltip
+{
+	background-color: Yellow;
+	border: 2px solid orange;
+	display: none;
+	position: absolute;
+	
+}
+
+font-family: Arial;
+ margin:5px;
+}
+#detalles {
+ background-color:#becdfe;
+ text-align:left;
+ font-family:verdana;
+ border-width:0;
+ padding:5px;
+ border: 1px dotted #fa0;
+ margin:5px;
+}
+#menu1 a{
+	display: block;
+	padding: 3px;
+	width: 160px;
+	background-color: #becdfe;
+	border-bottom: 1px solid #eeeeee;
+	text-align: center;
+	border-radius: 25px;
+}
+#menu1 a:link, #menu1 a:visited
+{
+	color: #000000;
+	text-decoration: none;
+}
+#menu1 a:hover
+{
+	background-color: #9400D3;
+	color: #ffffff;
+}
+#menu1
+{
+	font-family:Arial;
+}
+#menu1 p 
+{
+	margin: 0px;
+	padding: 0px;
+}
+#columna5
+{
+	float: left;
+	width: 200px;
+	margin: 7px;
+	padding: 1em;
+	background-color: #becdfe;
+	border-radius: 25px;
+	border: 1px solid #000000;
+	height: 500px;
+}
+#inicial
+{
+	float: left;
+	width: 200px;
+	margin: 7px;
+	padding: 1em;
+	background-color: #becdfe;
+	border-radius: 25px;
+	border: 1px solid #000000;
+	height: 570px;
+}
