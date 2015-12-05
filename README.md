@@ -1,5 +1,5 @@
 # Desarrollo-de-Aplicaciones-Web
 integrantes
-Alviry Zapata Miguel
+Alviry Zapata Miguel</p>
 Fuentes Carpio Patrick
 Romero Cornejo Kevin
