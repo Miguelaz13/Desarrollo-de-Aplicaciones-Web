@@ -1,5 +1,5 @@
 # Desarrollo-de-Aplicaciones-Web
-integrantes
+<h2>Integrantes</h2></p>
 Alviry Zapata Miguel</p>
-Fuentes Carpio Patrick
-Romero Cornejo Kevin
+Fuentes Carpio Patrick</p>
+Romero Cornejo Kevin</p>
